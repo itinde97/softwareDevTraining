@@ -38,7 +38,7 @@ li a{
 .slideshow-container {
   max-width: 1300px;
   position: relative;
-  margin: auto;;
+  margin: auto;
 }
 
 /* Next & previous buttons */
@@ -184,4 +184,17 @@ div.footer{
 
 .btn:hover {
   opacity: 1;
+}
+
+.button{
+    background-color: transparent;
+    float: left;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
 }
