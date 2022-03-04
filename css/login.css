@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color:gray;
+    height: 110px;
+    text-align: center;
+}
+ul{
+    float: left;
+    margin-right: 200px;
+    list-style-type: none;
+}
+li{
+    text-align: center;
+    float: left;
+    margin: 25px;
+    font-size: 30px;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+a:link{
+    text-decoration: none;
+}
+li a{
+    color: white;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1300px;
+  position: relative;
+  margin: auto;
+}
+h5{
+  text-align: center;
+  color: gray;
+  font-size: 30px;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+}
+.loginform{
+  margin-top: 100px;
+  margin-left: 400px;
+  margin-bottom: 200PX;
+}
+input{
+  width: 600px;
+  height: 80px;
+  margin: 10px;
+  font-size: 25px;
+  color: gray;
+  object-position: center;
+}
+.submit{
+  background-color: blue;
+  color: white;
+  border: transparent;
+}
+.footer{
+  float: left;
+  margin: 80px;
+  font-size: 25px;
+}

@@ -5,18 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="E-registry.css">
+    <link rel="stylesheet" href="css/landing.css">
 </head>
 <body>
     <nav class="navigation-bar">
-        <img class="logo" src="logo.jpg">
+        <img class="logo" src="images/logo.jpg">
         <ul>
             <li><a href="home.html">Home</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contactus.html">Contact us</a></li>
+            <div class="dropdown">
+              <button class="dropbtn">Services
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="services/services.html">SERVICES</a>
+                <a href="services/software_services.html">SOFTWARE SERVICES</a>
+                <a href="services/completed_services.html">COMPLETED SERVICES</a>
+                <a href="services/E_registry.html">E-registry</a>
+              </div>
+            </div>
+            <li><a href="contact_us.html">Contact us</a></li>
         </ul>
         <ul>
-            <li><a href="#"><span class="glyphicon glyphicon-user">Login</span></a></li>
+            <li><a href="login.html "><span class="glyphicon glyphicon-user">Login</span></a></li>
         </ul>
     </nav>
     <!-- Slideshow container -->
@@ -24,13 +34,17 @@
 
     <!-- Full-width images with number and caption text -->
     <div class="mySlides fade">
-      <img src="img1.jpg" style="width:100%">
+      <img src="images/img2.jpg" style="width:100%">
     </div>
     <div class="Homeimg">
       <div class="hero-text">
-        <h1>E-registry</h1>
+        <h1>Software Development</h1>
       </div>
     </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
   <br>
 <footer>
@@ -40,8 +54,8 @@
 </div>
   <!--image gallery-->
   <div class="gallery">
-    <a target="_blank" href="img2.jpg">
-      <img src="img2.jpg" alt="Cinque Terre" width="600" height="400">
+    <a target="_blank" href="images/img2.jpg">
+      <img src="images/img2.jpg" alt="Cinque Terre" width="600" height="400">
     </a>
     <div>
       <p>E-registry</p>
@@ -50,8 +64,8 @@
   </div>
   
   <div class="gallery">
-    <a target="_blank" href="img1.jpg">
-      <img src="img1.jpg" alt="Forest" width="600" height="400">
+    <a target="_blank" href="images/img1.jpg">
+      <img src="images/img1.jpg" alt="Forest" width="600" height="400">
     </a>
     <div>
       <p>E-meeting</p>
@@ -60,8 +74,8 @@
   </div>
   
   <div class="gallery">
-    <a target="_blank" href="img3.jpg">
-      <img src="img3.jpg" alt="Northern Lights" width="600" height="400">
+    <a target="_blank" href="images/img3.jpg">
+      <img src="images/img3.jpg" alt="Northern Lights" width="600" height="400">
     </a>
     <div>
       <p>OSIS</p>
@@ -70,8 +84,8 @@
   </div>
   
   <div class="gallery">
-    <a target="_blank" href="img4.jpg">
-      <img src="img4.jpg" alt="Mountains" width="600" height="400">
+    <a target="_blank" href="images/img4.jpg">
+      <img src="images/img4.jpg" alt="Mountains" width="600" height="400">
     </a>
     <div>
       <p>Research contract</p>
@@ -79,8 +93,8 @@
     </div>
   </div>
   <div class="gallery">
-    <a target="_blank" href="img2.jpg">
-      <img src="img2.jpg" alt="Mountains" width="600" height="400">
+    <a target="_blank" href="images/img2.jpg">
+      <img src="images/img2.jpg" alt="Mountains" width="600" height="400">
     </a>
     <div>
       <p>Utawala</p>
@@ -88,8 +102,8 @@
     </div>
   </div>
   <div class="gallery">
-    <a target="_blank" href="img3.jpg">
-      <img src="img3.jpg" alt="Mountains" width="600" height="400">
+    <a target="_blank" href="images/img3.jpg">
+      <img src="images/img3.jpg" alt="Mountains" width="600" height="400">
     </a>
     <div>
       <p>Bandwidth</p>

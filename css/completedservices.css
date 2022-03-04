@@ -39,7 +39,7 @@ li a{
   max-width: 1300px;
   position: relative;
   margin: auto;
-}
+} 
 
 /* Next & previous buttons */
 .prev, .next {
@@ -94,7 +94,7 @@ div.gallery {
   margin: 1px;
   border: 2px solid #ccc;
   float: left;
-  width: 370px;
+  width: 410px;
   height: 390px;
   margin-bottom: 10px;
   margin-left: 20px;
@@ -112,7 +112,7 @@ div.gallery:hover {
 
 div.gallery img {
   max-height: 250px;
-  max-width: 368px;
+  max-width: 408px;
 }
 
 div.desc {
@@ -125,63 +125,15 @@ margin-left: 22px;
 }
 div.footer{
   float: left;
-  margin-top: 650px;
+  margin-top: 50px;
   margin-right: 150px;
   margin-left: 30px;
 }
-
-.bg-img {
-  /* The image used */
-  background-image: url("img1.jpg");
-
-  /* Control the height of the image */
-  height: 500px;
-  width: 1150px;
-  left: 22px;
-  top: 850px;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.button{
+  margin-left: 400px;
 }
-
-/* Add styles to the form container */
-.container {
-  position: absolute;
-  top: 150px;
-  right: 300px;
-  margin: 20px;
-  max-width: 600px;
-  padding: 16px;
-  background-color: transparent;
-  font-size: 35px;
-  color: white;
-}
-
-/* Full-width input fields */
-  input[type=text], input[type=email] {
-  width: 80%;
+.btn{
   padding: 15px;
-  margin: 5px 0 22px 0;
-  border: none;
-  background: #f1f1f1;
-}
-/* Set a style for the submit button */
-.btn {
-  background-color: red;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  width: 18%;
-  margin-left:0px;
-  opacity: 0.9;
-  float: right;
-  margin-top: 3px;
-}
-
-.btn:hover {
-  opacity: 1;
+  margin: 5px;
+  margin-top: 50px;
 }
