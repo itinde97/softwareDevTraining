@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "landing_page.html",
+            "url": "C:/Users/johla/Desktop/myProject/softwareDevTraining/landing.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
